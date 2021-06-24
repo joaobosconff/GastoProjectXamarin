@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GastoProject.MainPage">
+
+    <StackLayout>
+        <Label Text="Descrição"/>
+        <Entry x:Name="descricaoField"  Placeholder="Descrição"/>
+        <Label Text="Preço"/>
+        <Entry x:Name="precoField" Text="{Binding BoundValue}" Keyboard="Numeric" TextChanged="OnTextNumberChanged"  Placeholder="Preço"/>
+        <Button Text="Cadastrar" Clicked="Button_Clicked" TextColor="White" BackgroundColor="Blue" CornerRadius="10"  Margin="4, 0"/>
+        <Label Text="Lista de Gastos :" FontSize="30" TextColor="Black"/>
+        <ListView x:Name="getGastos" ItemSelected="getGastos_itemSelected" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="10" BackgroundColor="SlateGray" OutlineColor="Black" Padding="4" Margin="4, 2">
+                            <StackLayout>
+                                <Label Text="{Binding Descricao}" TextColor="Black" FontSize="20"/>
+                                <Label Text="{Binding Preco, StringFormat='R$ {0}'}" TextColor="Black" FontSize="15"/>
+                            </StackLayout>
+                        </Frame>
+                 
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

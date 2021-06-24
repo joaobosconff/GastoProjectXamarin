@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GastoProject.GastoInfo">
+
+    <StackLayout>
+        <Label Text="Descrição"/>
+        <Entry x:Name="descricaoField" Placeholder="Descrição"/>
+        <Label Text="Preço"/>
+        <Entry x:Name="precoField" Text="{Binding BoundValue}" Keyboard="Numeric" TextChanged="OnTextNumberChanged"  Placeholder="Preço"/>
+
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+            <Button Text="Atualizar" Clicked="UpdateButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White"/>
+            <Button Text="Remover" Clicked="RemoveButton_Clicked" CornerRadius="10" BackgroundColor="Red" TextColor="White"/>
+        </StackLayout>
+        <Button Text="Voltar" Clicked="BackButton_Clicked"  CornerRadius="10"  Margin="4, 0" BackgroundColor="Blue" TextColor="White"/>
+    </StackLayout>
+    
+</ContentPage>

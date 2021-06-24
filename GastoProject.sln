@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastoProject.Android", "GastoProject\GastoProject.Android\GastoProject.Android.csproj", "{31252BEB-8A0D-4800-9BF9-96D58F464746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastoProject", "GastoProject\GastoProject\GastoProject.csproj", "{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31252BEB-8A0D-4800-9BF9-96D58F464746}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0E2BC8-D91B-4131-BD96-4DF71CD9A07D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBED1A47-F823-4C14-A0D3-BD514D0C1C8B}
+	EndGlobalSection
+EndGlobal
